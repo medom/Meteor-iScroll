@@ -1,9 +1,12 @@
 Package.describe({
+  git: 'https://github.com/SpaceCapsule/Meteor-iScroll.git',
+  name: 'raix:iscroll',
+  version: '0.0.1',
   summary: "Make the world iscroll"
 });
 
-Package.on_use(function (api) {
-  api.add_files(['iscroll.js'], 'client');
+Package.onUse(function (api) {
+  api.addFiles(['iscroll.js'], 'client');
 
   api.export && api.export('IScroll', 'client');
 });
