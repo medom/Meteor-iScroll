@@ -1,6 +1,6 @@
 Package.describe({
   git: 'https://github.com/medom/Meteor-iScroll-zoom.git',
-  name: 'mxe:iscroll',
+  name: 'mxe:iscroll-zoom',
   version: '0.0.3',
   summary: "Make the world iscroll"
 });
