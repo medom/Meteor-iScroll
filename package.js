@@ -1,12 +1,12 @@
 Package.describe({
-  git: 'https://github.com/SpaceCapsule/Meteor-iScroll.git',
-  name: 'raix:iscroll',
+  git: 'https://github.com/medom/Meteor-iScroll-zoom.git',
+  name: 'mxe:iscroll',
   version: '0.0.3',
   summary: "Make the world iscroll"
 });
 
 Package.onUse(function (api) {
-  api.addFiles(['iscroll.js'], 'client');
+  api.addFiles(['iscroll-zoom.js'], 'client');
 
   api.export && api.export('IScroll', 'client');
 });
